@@ -1,0 +1,150 @@
+/*
+  Primary: 333 => 003ba8
+  Secondary: DDD => 5f88d3
+  Bkg: AAA
+  Light-text / Light: FFF
+  Dark-Text / Dark: 000
+*/
+body {
+  color: #000;
+  background: #5f88d3;
+  background: #5f88d3 url('/sites/default/files/styles/main_background-bleugris.jpg') no-repeat fixed;
+}
+th {
+  background-color: #5f88d3;
+  border: 1px solid #003ba8;
+}
+td {
+  border: 1px solid #003ba8;
+}
+pre {
+  border: 2px dotted #003ba8;
+  background: #DDD;
+  margin: 15px;
+  padding: 5px;
+}
+.links li a {
+  color: #FFF;
+  text-shadow: 1px 1px #AAA;
+  background-color: #003ba8;
+}
+.links li a:hover {
+  color: #000;
+  text-shadow: 1px 1px #AAA;
+  background-color: #AAA;
+}
+#sidebar a:hover {
+  color: #000;
+}
+#header {
+  background-color : #FFF;
+}
+
+#navigation #main-menu > ul a, #navigation #main-menu > ul span {
+  color: #FFF;
+}
+#navigation #main-menu > ul > li > a:hover, #navigation #main-menu > ul > li > span:hover {
+  color: #000;
+}
+#navigation #main-menu > ul > li > a.active, navigation #main-menu > ul > li > span.active ,
+#navigation #main-menu > ul ul a:hover {
+  color: #FFF;
+}
+#navigation #main-menu > ul > li.sfHover > a, #navigation #main-menu > ul > li.sfHover > span,
+#navigation a.active, #navigation span.active,
+#navigation a.active:hover, #navigation span.active:hover,
+#navigation #main-menu > ul > li > a.active-trail, #navigation #main-menu > ul > li > span.active-trail,
+#navigation #main-menu > ul ul a {
+  color: #FFF;
+}
+#navigation #main-menu > ul ul {
+  border-color: #003ba8;
+}
+
+#content .node-teaser {
+  border-color: #003ba8;
+}
+#footer-area {
+  background: #FFF;
+}
+#copyright {
+  background-color: #FFF;
+}
+body a {
+  color: #003ba8;
+}
+body a:hover {
+  color: #5f88d3;
+}
+h1, h2, h3, h4, h5, h6, .field-label {
+  color: #003ba8;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #003ba8;
+}
+#logo h1 a {
+  color: #003ba8;
+}
+#navigation #main-menu > ul > li > a, #navigation #main-menu > ul > li > span {
+  background: #003ba8;
+}
+#navigation #main-menu > ul > li > a.active, navigation #main-menu > ul > li > span.active {
+  background: #5f88d3;
+}
+#navigation #main-menu > ul > li.sfHover > a, #navigation #main-menu > ul > li.sfHover > span,
+#navigation a.active, #navigation span.active,
+#navigation a.active:hover, #navigation span.active:hover,
+#navigation #main-menu > ul > li > a.active-trail, #navigation #main-menu > ul > li > span.active-trail {
+  background: #5f88d3;
+}
+#navigation #main-menu > ul ul li {
+  background: #5f88d3;
+}
+#navigation #main-menu > ul ul li > a:hover {
+  background-color: #003ba8;
+}
+#primary {
+  background: #FFF;
+}
+#sidebar {
+  border-left: 1px solid #003ba8;
+  background: #FFF;
+}
+#sidebar .block > h2 span {
+  background: #FFF;
+}
+
+.views-label {
+  color: #003ba8;
+}
+
+h1.page-title {
+  border-color:#003ba8;
+}
+#sidebar .block > h2 {
+  background-color: #5f88d3;
+}
+div.content div.group-price{
+  background: #5f88d3;
+}
+div.content div.group-price div.field-label {
+  color: #003ba8;
+}
+div.content div.group-price div.field-items {
+  color: #000;
+}
+div.content div.group-generalinfo{
+  border-bottom: 1px dotted #003ba8;
+}
+#sidebar div.view-activit-s-venir div.views-field-title a {
+  color: #003ba8;
+}
+div.view-activit-s-venir div.views-row {
+  border-bottom: 1px dotted #003ba8;
+}
+
+@media only screen and (max-width: 959px) {
+  #navigation {
+    background-color: #003ba8;
+  }
+}

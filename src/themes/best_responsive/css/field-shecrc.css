@@ -1,0 +1,81 @@
+#carousel ul {
+        list-style: none;
+        width:1600px;
+        margin: 0;
+        padding: 0;
+        position:relative;
+}
+#carousel li {
+        display:inline;
+        float:left;
+}
+
+div.content div.field-name-body {
+  clear: left;
+}
+div.content div.group-price{
+  float: right;
+  padding: 5px 5px 5px 5px;
+  margin: 10px 5px 5px 5px;
+}
+div.content div.group-price div.field-label {
+  width: 135px;
+}
+div.content div.group-price div.field-items {
+  font-weight: bold;
+}
+div.content div.group-generalinfo {
+  float: left;
+}
+
+div.view-conf-renciers article.node-biographie div.content div.field-name-field-photo,
+div.content div.field-name-field-conferencier  div.field-name-field-photo {
+  float: left;
+}
+div.view-conf-renciers article.node-biographie div.content div.field-name-body ,
+div.content div.field-name-field-conferencier  div.content div.field-name-body {
+  float: left;
+  clear: none;
+}
+#content div.content div.field-name-field-conferencier  .node-teaser {
+  border-bottom: none;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 3px;
+}
+
+/* Activits a venir */
+#sidebar div.view-activit_s_venir div.views-field-title a {
+  font-weight: bold;
+}
+div.view-activit-s-venir div.views-row {
+  margin-bottom: 10px;
+}
+div.view-activit-s-venir div.views-field-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+div.view-activit-s-venir div.views-field-field-conferencier div,
+div.view-activit-s-venir div.views-field-field-prix-membre div,
+div.view-activit-s-venir div.views-field-field-prix-non-membre div {
+  display: inline;
+}
+div.view-activit-s-venir div.views-field-field-conferencier span.views-label,
+div.view-activit-s-venir div.views-field-field-prix-membre span.views-label,
+div.view-activit-s-venir div.views-field-field-prix-non-membre span.views-label {
+  font-weight: bold;
+}
+
+div.group-biographie  div.field-name-field-photo {
+  float: left;
+}
+div.group-biographie  div.field-name-body {
+  clear: none;
+}
+
+table.borderless {
+  border: none;
+}
+table.borderless td {
+  border: none;
+}
